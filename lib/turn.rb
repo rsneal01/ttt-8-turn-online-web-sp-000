@@ -44,7 +44,7 @@ index = input_to_index(input)
   if valid_move?(board, index)
       move(board, index, char = "X")
     else
-      turn
+      turn(board)
     end
 
 display_board(board)
