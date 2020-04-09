@@ -47,8 +47,8 @@ index = input_to_index(input)
       turn
     end
     display_board
-
-move(board, index, char = "X")
+)
+move(board, index, char = "X"
 display_board(board)
  
 end
