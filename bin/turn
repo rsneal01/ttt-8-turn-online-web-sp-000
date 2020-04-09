@@ -5,7 +5,7 @@ require_relative '../lib/turn'
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 puts "Welcome to Tic Tac Toe!"
-<<<<<<< HEAD
+
 
 display_board(board)
 
@@ -17,8 +17,8 @@ turn(board)
 turn(board)
 turn(board)
 turn(board)
-=======
+
 display_board(board)
->>>>>>> ab7459beb219ec1ecbeee24e9403f97d50dd65fa
+
 turn(board)
 
