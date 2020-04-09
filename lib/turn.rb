@@ -33,8 +33,13 @@ def position_taken?(board, index)
   end
 end
 
+<<<<<<< HEAD
 def move(board, index, char = "X")
   board[index] = char
+=======
+def move(board, position, char = "X")
+  board[position] = char
+>>>>>>> ab7459beb219ec1ecbeee24e9403f97d50dd65fa
   
 end
 
@@ -42,10 +47,16 @@ def turn(board)
   puts "Please enter 1-9:"
   input = gets.strip
 index = input_to_index(input)
+<<<<<<< HEAD
   until valid_move?(board, index)
   turn(board)
 end
 move(board, index, char = "X")
 display_board(board)
+=======
+  until index.between?(0, 8)
+  turn(board)
+end
+>>>>>>> ab7459beb219ec1ecbeee24e9403f97d50dd65fa
 end
 
