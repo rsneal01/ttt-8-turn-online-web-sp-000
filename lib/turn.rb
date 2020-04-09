@@ -33,13 +33,10 @@ def position_taken?(board, index)
   end
 end
 
-def move(board, index, char = "X")
-  board[in=======
   
 def move(board, position, char = "X")
   board[position] = char
 
-  
 end
 
 def turn(board)
