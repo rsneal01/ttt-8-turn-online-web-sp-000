@@ -47,9 +47,9 @@ index = input_to_index(input)
   until valid_move?(board, index)
   turn(board)
 end
+
 move(board, index, char = "X")
 display_board(board)
-=======
   until index.between?(0, 8)
   turn(board)
 end
