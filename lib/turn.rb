@@ -46,9 +46,7 @@ index = input_to_index(input)
     else
       turn
     end
-    display_board
-)
-move(board, index, char = "X"
+
 display_board(board)
  
 end
