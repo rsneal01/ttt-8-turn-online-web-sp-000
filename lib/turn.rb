@@ -45,6 +45,7 @@ def turn(board)
 index = input_to_index(input)
 
   until valid_move?(board, index)
+  return true
   turn(board)
 end
 
